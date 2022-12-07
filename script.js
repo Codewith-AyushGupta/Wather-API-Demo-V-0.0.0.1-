@@ -108,6 +108,7 @@ function showWeatherData(data , location) {
 }
 
 function getdata() {
+    debugger;
     let lat=''
     let lon=''
     console.log('Sucess')
