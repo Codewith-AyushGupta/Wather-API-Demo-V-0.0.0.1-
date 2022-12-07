@@ -16,8 +16,9 @@ body{
 }
 
 .container{
-    padding: 20px 70px;
-    color:#fff;
+    color: #fff;
+    padding-top: 3%;
+    font-weight: bolder;
 }
 
 .current-info{
@@ -135,7 +136,13 @@ body{
     font-weight: 100;
     font-size: 12px;
 }
-
+.stateName{
+    width: 56%;
+    display: flex;
+    margin-top: 11%;
+    /* justify-content: end; */
+    flex-direction: column;
+}
 
 @media only screen and  (max-width:730px){
     
@@ -180,6 +187,13 @@ body{
 
     .current-info .others .weather-item{
         font-size: 14px;
+    }
+    .stateName
+    {
+        width: 100%;
+    }
+    .current-info{
+        flex-direction: column;
     }
 
 }
